@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="791.0" style="-fx-background-color: #9c2827;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="198.0" layoutY="60.0" prefHeight="28.0" prefWidth="370.0" text="Choose The Chair You Prefer">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="414.0" prefHeight="16.0" prefWidth="22.0" text="A">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="294.0" prefHeight="16.0" prefWidth="22.0" text="B">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="189.0" prefHeight="16.0" prefWidth="22.0" text="C">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-14.0" layoutY="73.0" prefWidth="200.0" />
+      <Separator layoutX="568.0" layoutY="72.0" prefHeight="3.0" prefWidth="228.0" />
+      <Label layoutX="129.0" layoutY="505.0" prefHeight="20.0" prefWidth="14.0" text="1">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="210.0" layoutY="505.0" prefHeight="16.0" prefWidth="22.0" text="2">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="505.0" prefHeight="16.0" prefWidth="22.0" text="3">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="472.0" layoutY="505.0" prefHeight="16.0" prefWidth="22.0" text="4">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="557.0" layoutY="505.0" prefHeight="16.0" prefWidth="22.0" text="5">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="505.0" prefHeight="16.0" prefWidth="22.0" text="6">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="105.0" layoutY="403.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-image: chair.png; -fx-background-color: #b1aeae;" />
+      <ImageView layoutX="113.0" layoutY="408.0">
+         <image>
+            <Image url="@../../../chair.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="284.0" layoutY="403.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="104.0" layoutY="178.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="104.0" layoutY="293.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-image: chair.png; -fx-background-color: #b1aeae;" textFill="#746c6c" />
+      <Button layoutX="196.0" layoutY="292.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-image: chair.png; -fx-background-color: #b1aeae;" textFill="#b1aeae" />
+      <Button layoutX="196.0" layoutY="178.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="197.0" layoutY="403.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="284.0" layoutY="292.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="284.0" layoutY="178.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="447.0" layoutY="399.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="447.0" layoutY="283.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="444.0" layoutY="178.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="532.0" layoutY="399.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="532.0" layoutY="282.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="532.0" layoutY="178.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="625.0" layoutY="399.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="622.0" layoutY="282.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <Button layoutX="622.0" layoutY="178.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="49.0" style="-fx-background-color: #b1aeae;" />
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="205.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="113.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="113.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="205.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="293.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="293.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="206.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="293.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="453.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="456.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="456.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="541.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="541.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="541.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="631.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="631.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="50.0" layoutX="635.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="263.0" layoutY="560.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="219.0" style="-fx-background-color: #E45652;" text="Submit Chair" textFill="#baadad" />
+      <ImageView fitHeight="32.0" fitWidth="50.0" layoutX="114.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chair.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

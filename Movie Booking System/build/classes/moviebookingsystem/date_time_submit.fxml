@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="806.0" style="-fx-background-color: #9c2827;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="moviebookingsystem.Date_time_submitController">
+   <children>
+      <ImageView fitHeight="574.0" fitWidth="407.0" layoutX="-3.0">
+         <image>
+            <Image url="@../images/marlin.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="458.0" layoutY="32.0" prefHeight="50.0" prefWidth="298.0" text="Welcome Again!">
+         <font>
+            <Font name="Algerian" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="177.0" text="Choose The Day You Want">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="271.0" text="Choose The Time You Want">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="time" layoutX="508.0" layoutY="298.0" onAction="#value_cb" prefHeight="26.0" prefWidth="183.0" promptText="Time" />
+      <Button layoutX="502.0" layoutY="500.0" mnemonicParsing="false" onAction="#date_time_submit" prefHeight="26.0" prefWidth="219.0" style="-fx-background-color: #E45652;" text="Submit" textFill="#baadad" />
+      <Label layoutX="421.0" layoutY="356.0" text="Choose The Type of Film You Want">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="type" layoutX="502.0" layoutY="389.0" prefHeight="26.0" prefWidth="183.0" promptText="Type" />
+      <DatePicker fx:id="date" layoutX="506.0" layoutY="204.0" promptText="Date" />
+   </children>
+</AnchorPane>

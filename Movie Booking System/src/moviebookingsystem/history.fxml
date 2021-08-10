@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="611.0" prefWidth="789.0" style="-fx-background-color: #9c2827;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="moviebookingsystem.HistoryController">
+   <children>
+      <ImageView fitHeight="633.0" fitWidth="460.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cinemahi.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="504.0" layoutY="50.0" prefHeight="54.0" prefWidth="551.0" text="Your History With Us ">
+         <font>
+            <Font name="Algerian" size="47.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="172.0" prefHeight="20.0" prefWidth="196.0" text="Chair/s you Booked:">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="217.0" prefHeight="20.0" prefWidth="196.0" text="Hall ID:">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="256.0" prefHeight="20.0" prefWidth="196.0" text="Movie:">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="297.0" prefHeight="20.0" prefWidth="196.0" text="Date:">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="336.0" prefHeight="20.0" prefWidth="196.0" text="Ticket Price:">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="382.0" prefHeight="20.0" prefWidth="196.0" text="Cinema:">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="430.0" prefHeight="20.0" prefWidth="196.0" text="Show Type">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="609.0" layoutY="508.0" prefHeight="54.0" prefWidth="313.0" text="Thanks For Choosing Us!">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="chairs" layoutX="728.0" layoutY="163.0" prefHeight="34.0" prefWidth="214.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="hall" layoutX="732.0" layoutY="213.0" prefHeight="28.0" prefWidth="206.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="movie" layoutX="735.0" layoutY="252.0" prefHeight="28.0" prefWidth="206.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="735.0" layoutY="293.0" prefHeight="28.0" prefWidth="206.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="price" layoutX="732.0" layoutY="332.0" prefHeight="28.0" prefWidth="206.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="cinema" layoutX="716.0" layoutY="378.0" prefHeight="28.0" prefWidth="206.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="type" layoutX="716.0" layoutY="426.0" prefHeight="28.0" prefWidth="206.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
